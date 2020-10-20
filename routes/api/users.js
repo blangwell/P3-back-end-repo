@@ -145,10 +145,7 @@ router.get('/profile/:id', (req,res) => {
   .catch(err => console.log('BAD RESPONSE'))
 })
 
-<<<<<<< HEAD:backend/routes/api/users.js
-=======
 
->>>>>>> b3b53b9da618ea4fc9ca236df89fe29d8a81e5b4:routes/api/users.js
 // GET one user's faved games
 router.get('/faves/:id', (req,res) => {
   db.User.findById(req.params.id)
